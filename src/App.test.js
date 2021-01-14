@@ -7,7 +7,7 @@ import { act } from 'react-dom/test-utils';
 
 // Had to use data-testid ??
 // getByLabelText
-// getByPlaceholderName
+// getByPlaceholder
 
 const testInput = {
   firstName: "Nat",
