@@ -45,6 +45,7 @@ const ContactForm = () => {
           <input name="email" 
             id="lastName"
             placeholder="bluebill1049@hotmail.com"
+            data-testid='email'
             ref={register({ required: true })} 
           />
           {errors.email && (
